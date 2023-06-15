@@ -1,5 +1,3 @@
-
-'''
 a = range(10)
 print(list(a))
 
@@ -7,17 +5,15 @@ for i in range(10):
     print(i)
 
 # rage 감소시키기
-
 for i in range(10, 0, -1):
     print(i)
 
-
+# while문
 i = 1
 
 while i <= 10:
     print(i)
     i += 1
-
 
 
 i = 10
@@ -34,10 +30,9 @@ while True:
     if (i == 10):
         break
     i += 1
-'''
+
 
 # continue
-
 for i in range(1, 11):
     if (i % 2 == 0):
         continue
