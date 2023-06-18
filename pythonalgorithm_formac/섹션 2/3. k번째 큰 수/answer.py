@@ -11,6 +11,3 @@ def solution(input_file):
     nCr = list(set(list(map(sum, list(itertools.combinations(a, 3))))))
     nCr.sort(reverse=True)
     return nCr[k-1]
-
-
-solution('in1.txt')
