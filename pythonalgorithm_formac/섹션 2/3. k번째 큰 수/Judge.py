@@ -10,11 +10,11 @@ def judge():
     for i in range(1, case_num + 1):
         input_file = 'in' + str(i) + '.txt'
         output_file = 'out' + str(i) + '.txt'
-        output = open(output_file, 'r').readlines()
+        output = open(output_file, 'r').readline()
 
         result = answer.solution(input_file)
 
-        if result != output:
+        if result != int(output):
             print('answer wrong!')
             print("output:", result)
             print("but we expected ", output)
