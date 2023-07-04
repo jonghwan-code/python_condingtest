@@ -2,7 +2,7 @@ import time
 import answer
 
 
-case_num = 1
+case_num = 5
 
 
 def judge():
