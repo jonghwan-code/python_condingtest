@@ -25,6 +25,7 @@ def solution(input_file):
     #             count += 1
     #             break
     '''선새님 코드'''
+    # 앞뒤에 최소/최대값이 존재하므로 굳이 for 문을 돌지 않아도 된다
 
     while people:
         if len(people) == 1:
