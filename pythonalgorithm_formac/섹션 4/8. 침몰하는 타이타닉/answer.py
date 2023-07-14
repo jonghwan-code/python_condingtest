@@ -34,9 +34,8 @@ def solution(input_file):
         if people[0] + people[-1] > m:
             people.pop()
             count += 1
-
         else:
-            people.popleft
+            people.popleft()
             people.pop()
             count += 1
 
